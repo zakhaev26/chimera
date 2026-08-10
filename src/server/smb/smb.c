@@ -234,6 +234,7 @@ chimera_smb_server_init(
     shared->config.notify_disabled            = chimera_server_config_get_smb_notify_disabled(config);
     shared->config.acl_inherited_canonicalize = chimera_server_config_get_smb_acl_inherited_canonicalize(config);
     shared->config.smb2_max_async_credits     = chimera_server_config_get_smb2_max_async_credits(config);
+    shared->config.replay_pending_windows     = chimera_server_config_get_smb_replay_pending_windows(config);
 
     if (shared->config.persistent_handles) {
         chimera_smb_info("SMB3 durable/persistent handles enabled (in-memory state)");
@@ -1046,6 +1047,16 @@ chimera_smb_complete_request(
      * SMB2_FLAGS_ASYNC_COMMAND and the matching AsyncId. */
     if (unlikely(request->async.armed)) {
         chimera_smb_async_interim_cancel(request);
+    }
+
+    /* A CREATE that was registered as deferred-and-not-yet-hashed
+     * (tree->pending_creates) is finished now however it got here, so drop the
+     * registration: the entry lives in this request and must never outlive it.
+     * Idempotent -- the create paths that resolve normally unregister at the
+     * point the open becomes visible in open_files[] instead. */
+    if (unlikely(request->smb2_hdr.command == SMB2_CREATE &&
+                 request->create.pending_linked)) {
+        chimera_smb_create_pending_unregister(request);
     }
 
     request->status = status;

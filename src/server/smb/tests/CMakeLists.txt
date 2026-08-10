@@ -1751,23 +1751,45 @@ set(SMBTORTURE_ENABLED_memfs
     # smb2.replay
     smb2.replay.channel-sequence
     smb2.replay.dhv2-pending1l-vs-lease-sane
+    smb2.replay.dhv2-pending1l-vs-lease-windows
     smb2.replay.dhv2-pending1l-vs-oplock-sane
+    smb2.replay.dhv2-pending1l-vs-oplock-windows
     smb2.replay.dhv2-pending1n-vs-lease-sane
+    smb2.replay.dhv2-pending1n-vs-lease-windows
     smb2.replay.dhv2-pending1n-vs-oplock-sane
+    smb2.replay.dhv2-pending1n-vs-oplock-windows
+    smb2.replay.dhv2-pending1n-vs-violation-lease-ack-sane
+    smb2.replay.dhv2-pending1n-vs-violation-lease-ack-windows
+    smb2.replay.dhv2-pending1n-vs-violation-lease-close-sane
+    smb2.replay.dhv2-pending1n-vs-violation-lease-close-windows
     smb2.replay.dhv2-pending1o-vs-lease-sane
+    smb2.replay.dhv2-pending1o-vs-lease-windows
     smb2.replay.dhv2-pending1o-vs-oplock-sane
+    smb2.replay.dhv2-pending1o-vs-oplock-windows
     smb2.replay.dhv2-pending2l-vs-lease-sane
+    smb2.replay.dhv2-pending2l-vs-lease-windows
     smb2.replay.dhv2-pending2l-vs-oplock-sane
+    smb2.replay.dhv2-pending2l-vs-oplock-windows
     smb2.replay.dhv2-pending2n-vs-lease-sane
+    smb2.replay.dhv2-pending2n-vs-lease-windows
     smb2.replay.dhv2-pending2n-vs-oplock-sane
+    smb2.replay.dhv2-pending2n-vs-oplock-windows
     smb2.replay.dhv2-pending2o-vs-lease-sane
+    smb2.replay.dhv2-pending2o-vs-lease-windows
     smb2.replay.dhv2-pending2o-vs-oplock-sane
+    smb2.replay.dhv2-pending2o-vs-oplock-windows
     smb2.replay.dhv2-pending3l-vs-lease-sane
+    smb2.replay.dhv2-pending3l-vs-lease-windows
     smb2.replay.dhv2-pending3l-vs-oplock-sane
+    smb2.replay.dhv2-pending3l-vs-oplock-windows
     smb2.replay.dhv2-pending3n-vs-lease-sane
+    smb2.replay.dhv2-pending3n-vs-lease-windows
     smb2.replay.dhv2-pending3n-vs-oplock-sane
+    smb2.replay.dhv2-pending3n-vs-oplock-windows
     smb2.replay.dhv2-pending3o-vs-lease-sane
+    smb2.replay.dhv2-pending3o-vs-lease-windows
     smb2.replay.dhv2-pending3o-vs-oplock-sane
+    smb2.replay.dhv2-pending3o-vs-oplock-windows
     smb2.replay.durable-reconnect-replay1
     smb2.replay.durable-reconnect-replay2
     smb2.replay.durable-reconnect-replay3
@@ -2333,23 +2355,45 @@ set(SMBTORTURE_ENABLED_linux
     # smb2.replay
     smb2.replay.channel-sequence
     smb2.replay.dhv2-pending1l-vs-lease-sane
+    smb2.replay.dhv2-pending1l-vs-lease-windows
     smb2.replay.dhv2-pending1l-vs-oplock-sane
+    smb2.replay.dhv2-pending1l-vs-oplock-windows
     smb2.replay.dhv2-pending1n-vs-lease-sane
+    smb2.replay.dhv2-pending1n-vs-lease-windows
     smb2.replay.dhv2-pending1n-vs-oplock-sane
+    smb2.replay.dhv2-pending1n-vs-oplock-windows
+    smb2.replay.dhv2-pending1n-vs-violation-lease-ack-sane
+    smb2.replay.dhv2-pending1n-vs-violation-lease-ack-windows
+    smb2.replay.dhv2-pending1n-vs-violation-lease-close-sane
+    smb2.replay.dhv2-pending1n-vs-violation-lease-close-windows
     smb2.replay.dhv2-pending1o-vs-lease-sane
+    smb2.replay.dhv2-pending1o-vs-lease-windows
     smb2.replay.dhv2-pending1o-vs-oplock-sane
+    smb2.replay.dhv2-pending1o-vs-oplock-windows
     smb2.replay.dhv2-pending2l-vs-lease-sane
+    smb2.replay.dhv2-pending2l-vs-lease-windows
     smb2.replay.dhv2-pending2l-vs-oplock-sane
+    smb2.replay.dhv2-pending2l-vs-oplock-windows
     smb2.replay.dhv2-pending2n-vs-lease-sane
+    smb2.replay.dhv2-pending2n-vs-lease-windows
     smb2.replay.dhv2-pending2n-vs-oplock-sane
+    smb2.replay.dhv2-pending2n-vs-oplock-windows
     smb2.replay.dhv2-pending2o-vs-lease-sane
+    smb2.replay.dhv2-pending2o-vs-lease-windows
     smb2.replay.dhv2-pending2o-vs-oplock-sane
+    smb2.replay.dhv2-pending2o-vs-oplock-windows
     smb2.replay.dhv2-pending3l-vs-lease-sane
+    smb2.replay.dhv2-pending3l-vs-lease-windows
     smb2.replay.dhv2-pending3l-vs-oplock-sane
+    smb2.replay.dhv2-pending3l-vs-oplock-windows
     smb2.replay.dhv2-pending3n-vs-lease-sane
+    smb2.replay.dhv2-pending3n-vs-lease-windows
     smb2.replay.dhv2-pending3n-vs-oplock-sane
+    smb2.replay.dhv2-pending3n-vs-oplock-windows
     smb2.replay.dhv2-pending3o-vs-lease-sane
+    smb2.replay.dhv2-pending3o-vs-lease-windows
     smb2.replay.dhv2-pending3o-vs-oplock-sane
+    smb2.replay.dhv2-pending3o-vs-oplock-windows
     smb2.replay.durable-reconnect-replay1
     smb2.replay.durable-reconnect-replay2
     smb2.replay.durable-reconnect-replay3
@@ -2856,23 +2900,45 @@ set(SMBTORTURE_ENABLED_io_uring
     # smb2.replay
     smb2.replay.channel-sequence
     smb2.replay.dhv2-pending1l-vs-lease-sane
+    smb2.replay.dhv2-pending1l-vs-lease-windows
     smb2.replay.dhv2-pending1l-vs-oplock-sane
+    smb2.replay.dhv2-pending1l-vs-oplock-windows
     smb2.replay.dhv2-pending1n-vs-lease-sane
+    smb2.replay.dhv2-pending1n-vs-lease-windows
     smb2.replay.dhv2-pending1n-vs-oplock-sane
+    smb2.replay.dhv2-pending1n-vs-oplock-windows
+    smb2.replay.dhv2-pending1n-vs-violation-lease-ack-sane
+    smb2.replay.dhv2-pending1n-vs-violation-lease-ack-windows
+    smb2.replay.dhv2-pending1n-vs-violation-lease-close-sane
+    smb2.replay.dhv2-pending1n-vs-violation-lease-close-windows
     smb2.replay.dhv2-pending1o-vs-lease-sane
+    smb2.replay.dhv2-pending1o-vs-lease-windows
     smb2.replay.dhv2-pending1o-vs-oplock-sane
+    smb2.replay.dhv2-pending1o-vs-oplock-windows
     smb2.replay.dhv2-pending2l-vs-lease-sane
+    smb2.replay.dhv2-pending2l-vs-lease-windows
     smb2.replay.dhv2-pending2l-vs-oplock-sane
+    smb2.replay.dhv2-pending2l-vs-oplock-windows
     smb2.replay.dhv2-pending2n-vs-lease-sane
+    smb2.replay.dhv2-pending2n-vs-lease-windows
     smb2.replay.dhv2-pending2n-vs-oplock-sane
+    smb2.replay.dhv2-pending2n-vs-oplock-windows
     smb2.replay.dhv2-pending2o-vs-lease-sane
+    smb2.replay.dhv2-pending2o-vs-lease-windows
     smb2.replay.dhv2-pending2o-vs-oplock-sane
+    smb2.replay.dhv2-pending2o-vs-oplock-windows
     smb2.replay.dhv2-pending3l-vs-lease-sane
+    smb2.replay.dhv2-pending3l-vs-lease-windows
     smb2.replay.dhv2-pending3l-vs-oplock-sane
+    smb2.replay.dhv2-pending3l-vs-oplock-windows
     smb2.replay.dhv2-pending3n-vs-lease-sane
+    smb2.replay.dhv2-pending3n-vs-lease-windows
     smb2.replay.dhv2-pending3n-vs-oplock-sane
+    smb2.replay.dhv2-pending3n-vs-oplock-windows
     smb2.replay.dhv2-pending3o-vs-lease-sane
+    smb2.replay.dhv2-pending3o-vs-lease-windows
     smb2.replay.dhv2-pending3o-vs-oplock-sane
+    smb2.replay.dhv2-pending3o-vs-oplock-windows
     smb2.replay.durable-reconnect-replay1
     smb2.replay.durable-reconnect-replay2
     smb2.replay.durable-reconnect-replay3
@@ -3407,23 +3473,45 @@ set(SMBTORTURE_ENABLED_cairn
     # smb2.replay
     smb2.replay.channel-sequence
     smb2.replay.dhv2-pending1l-vs-lease-sane
+    smb2.replay.dhv2-pending1l-vs-lease-windows
     smb2.replay.dhv2-pending1l-vs-oplock-sane
+    smb2.replay.dhv2-pending1l-vs-oplock-windows
     smb2.replay.dhv2-pending1n-vs-lease-sane
+    smb2.replay.dhv2-pending1n-vs-lease-windows
     smb2.replay.dhv2-pending1n-vs-oplock-sane
+    smb2.replay.dhv2-pending1n-vs-oplock-windows
+    smb2.replay.dhv2-pending1n-vs-violation-lease-ack-sane
+    smb2.replay.dhv2-pending1n-vs-violation-lease-ack-windows
+    smb2.replay.dhv2-pending1n-vs-violation-lease-close-sane
+    smb2.replay.dhv2-pending1n-vs-violation-lease-close-windows
     smb2.replay.dhv2-pending1o-vs-lease-sane
+    smb2.replay.dhv2-pending1o-vs-lease-windows
     smb2.replay.dhv2-pending1o-vs-oplock-sane
+    smb2.replay.dhv2-pending1o-vs-oplock-windows
     smb2.replay.dhv2-pending2l-vs-lease-sane
+    smb2.replay.dhv2-pending2l-vs-lease-windows
     smb2.replay.dhv2-pending2l-vs-oplock-sane
+    smb2.replay.dhv2-pending2l-vs-oplock-windows
     smb2.replay.dhv2-pending2n-vs-lease-sane
+    smb2.replay.dhv2-pending2n-vs-lease-windows
     smb2.replay.dhv2-pending2n-vs-oplock-sane
+    smb2.replay.dhv2-pending2n-vs-oplock-windows
     smb2.replay.dhv2-pending2o-vs-lease-sane
+    smb2.replay.dhv2-pending2o-vs-lease-windows
     smb2.replay.dhv2-pending2o-vs-oplock-sane
+    smb2.replay.dhv2-pending2o-vs-oplock-windows
     smb2.replay.dhv2-pending3l-vs-lease-sane
+    smb2.replay.dhv2-pending3l-vs-lease-windows
     smb2.replay.dhv2-pending3l-vs-oplock-sane
+    smb2.replay.dhv2-pending3l-vs-oplock-windows
     smb2.replay.dhv2-pending3n-vs-lease-sane
+    smb2.replay.dhv2-pending3n-vs-lease-windows
     smb2.replay.dhv2-pending3n-vs-oplock-sane
+    smb2.replay.dhv2-pending3n-vs-oplock-windows
     smb2.replay.dhv2-pending3o-vs-lease-sane
+    smb2.replay.dhv2-pending3o-vs-lease-windows
     smb2.replay.dhv2-pending3o-vs-oplock-sane
+    smb2.replay.dhv2-pending3o-vs-oplock-windows
     smb2.replay.durable-reconnect-replay1
     smb2.replay.durable-reconnect-replay2
     smb2.replay.durable-reconnect-replay3
@@ -3986,23 +4074,45 @@ set(SMBTORTURE_ENABLED_diskfs_io_uring
     # smb2.replay
     smb2.replay.channel-sequence
     smb2.replay.dhv2-pending1l-vs-lease-sane
+    smb2.replay.dhv2-pending1l-vs-lease-windows
     smb2.replay.dhv2-pending1l-vs-oplock-sane
+    smb2.replay.dhv2-pending1l-vs-oplock-windows
     smb2.replay.dhv2-pending1n-vs-lease-sane
+    smb2.replay.dhv2-pending1n-vs-lease-windows
     smb2.replay.dhv2-pending1n-vs-oplock-sane
+    smb2.replay.dhv2-pending1n-vs-oplock-windows
+    smb2.replay.dhv2-pending1n-vs-violation-lease-ack-sane
+    smb2.replay.dhv2-pending1n-vs-violation-lease-ack-windows
+    smb2.replay.dhv2-pending1n-vs-violation-lease-close-sane
+    smb2.replay.dhv2-pending1n-vs-violation-lease-close-windows
     smb2.replay.dhv2-pending1o-vs-lease-sane
+    smb2.replay.dhv2-pending1o-vs-lease-windows
     smb2.replay.dhv2-pending1o-vs-oplock-sane
+    smb2.replay.dhv2-pending1o-vs-oplock-windows
     smb2.replay.dhv2-pending2l-vs-lease-sane
+    smb2.replay.dhv2-pending2l-vs-lease-windows
     smb2.replay.dhv2-pending2l-vs-oplock-sane
+    smb2.replay.dhv2-pending2l-vs-oplock-windows
     smb2.replay.dhv2-pending2n-vs-lease-sane
+    smb2.replay.dhv2-pending2n-vs-lease-windows
     smb2.replay.dhv2-pending2n-vs-oplock-sane
+    smb2.replay.dhv2-pending2n-vs-oplock-windows
     smb2.replay.dhv2-pending2o-vs-lease-sane
+    smb2.replay.dhv2-pending2o-vs-lease-windows
     smb2.replay.dhv2-pending2o-vs-oplock-sane
+    smb2.replay.dhv2-pending2o-vs-oplock-windows
     smb2.replay.dhv2-pending3l-vs-lease-sane
+    smb2.replay.dhv2-pending3l-vs-lease-windows
     smb2.replay.dhv2-pending3l-vs-oplock-sane
+    smb2.replay.dhv2-pending3l-vs-oplock-windows
     smb2.replay.dhv2-pending3n-vs-lease-sane
+    smb2.replay.dhv2-pending3n-vs-lease-windows
     smb2.replay.dhv2-pending3n-vs-oplock-sane
+    smb2.replay.dhv2-pending3n-vs-oplock-windows
     smb2.replay.dhv2-pending3o-vs-lease-sane
+    smb2.replay.dhv2-pending3o-vs-lease-windows
     smb2.replay.dhv2-pending3o-vs-oplock-sane
+    smb2.replay.dhv2-pending3o-vs-oplock-windows
     smb2.replay.durable-reconnect-replay1
     smb2.replay.durable-reconnect-replay2
     smb2.replay.durable-reconnect-replay3
@@ -4562,23 +4672,45 @@ set(SMBTORTURE_ENABLED_diskfs_aio
     # smb2.replay
     smb2.replay.channel-sequence
     smb2.replay.dhv2-pending1l-vs-lease-sane
+    smb2.replay.dhv2-pending1l-vs-lease-windows
     smb2.replay.dhv2-pending1l-vs-oplock-sane
+    smb2.replay.dhv2-pending1l-vs-oplock-windows
     smb2.replay.dhv2-pending1n-vs-lease-sane
+    smb2.replay.dhv2-pending1n-vs-lease-windows
     smb2.replay.dhv2-pending1n-vs-oplock-sane
+    smb2.replay.dhv2-pending1n-vs-oplock-windows
+    smb2.replay.dhv2-pending1n-vs-violation-lease-ack-sane
+    smb2.replay.dhv2-pending1n-vs-violation-lease-ack-windows
+    smb2.replay.dhv2-pending1n-vs-violation-lease-close-sane
+    smb2.replay.dhv2-pending1n-vs-violation-lease-close-windows
     smb2.replay.dhv2-pending1o-vs-lease-sane
+    smb2.replay.dhv2-pending1o-vs-lease-windows
     smb2.replay.dhv2-pending1o-vs-oplock-sane
+    smb2.replay.dhv2-pending1o-vs-oplock-windows
     smb2.replay.dhv2-pending2l-vs-lease-sane
+    smb2.replay.dhv2-pending2l-vs-lease-windows
     smb2.replay.dhv2-pending2l-vs-oplock-sane
+    smb2.replay.dhv2-pending2l-vs-oplock-windows
     smb2.replay.dhv2-pending2n-vs-lease-sane
+    smb2.replay.dhv2-pending2n-vs-lease-windows
     smb2.replay.dhv2-pending2n-vs-oplock-sane
+    smb2.replay.dhv2-pending2n-vs-oplock-windows
     smb2.replay.dhv2-pending2o-vs-lease-sane
+    smb2.replay.dhv2-pending2o-vs-lease-windows
     smb2.replay.dhv2-pending2o-vs-oplock-sane
+    smb2.replay.dhv2-pending2o-vs-oplock-windows
     smb2.replay.dhv2-pending3l-vs-lease-sane
+    smb2.replay.dhv2-pending3l-vs-lease-windows
     smb2.replay.dhv2-pending3l-vs-oplock-sane
+    smb2.replay.dhv2-pending3l-vs-oplock-windows
     smb2.replay.dhv2-pending3n-vs-lease-sane
+    smb2.replay.dhv2-pending3n-vs-lease-windows
     smb2.replay.dhv2-pending3n-vs-oplock-sane
+    smb2.replay.dhv2-pending3n-vs-oplock-windows
     smb2.replay.dhv2-pending3o-vs-lease-sane
+    smb2.replay.dhv2-pending3o-vs-lease-windows
     smb2.replay.dhv2-pending3o-vs-oplock-sane
+    smb2.replay.dhv2-pending3o-vs-oplock-windows
     smb2.replay.durable-reconnect-replay1
     smb2.replay.durable-reconnect-replay2
     smb2.replay.durable-reconnect-replay3
@@ -4757,6 +4889,12 @@ set(SMBTORTURE_ISOLATE_SUITES
     smb2.durable-v2-open
     smb2.lease
     smb2.oplock
+    # smb2.replay must ALSO stay per-subtest for a second, non-timing reason: the
+    # driver selects the replay-vs-pending-create profile per subtest name
+    # (smb_replay_pending_windows for dhv2-pending*-windows, default for
+    # *-sane), and those two profiles cannot coexist in one daemon.  A
+    # consolidated run would put every subtest in whichever profile the batch
+    # happened to select and fail the other half.
     smb2.replay
     # smb2.session needs per-subtest isolation: the anon-encryption* cases make
     # the test driver enable SMB3 transport encryption for the whole daemon, and
